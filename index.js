@@ -10,7 +10,7 @@ app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 
 app.get('/', function(request, response) {
-  response.render('./build/app.html');
+  response.render('pages/index.html');
 });
 
 app.listen(app.get('port'), function() {
