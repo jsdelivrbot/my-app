@@ -1,1 +1,1 @@
-web: node "build/t_fileServer.js"
+web: node index.js
